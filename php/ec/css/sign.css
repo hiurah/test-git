@@ -1,0 +1,61 @@
+* {
+    font-family: 'Maven Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg, #ffffff 60%, #0000ff);
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+form {
+    width: 40%;
+    margin-left: 30%;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border-bottom: solid 1px #7053c4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1rem;
+    transition: all 0.4s;
+    color: #BDBDBD;;
+    margin: 0.7rem 0;
+}
+input:focus {
+    background: #7035c4;
+    transform: scale3d(1.06,1.06,1.06);
+}
+
+.submit {
+    background: transparent;
+    width: 50%;
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    border: solid 1px #7053c4;
+    padding: 1em 0;
+    color: #000000;
+    transition: all 0.6s;
+}
+.submit:hover {
+    cursor:pointer;
+    background: #b08be5;
+}
+@media (max-width: 550px) {
+    form {
+        width: 90%;
+        margin-left: 3%;
+        padding-top: 5%;
+    }
+    input {
+        font-size: 1em;
+    }
+}
