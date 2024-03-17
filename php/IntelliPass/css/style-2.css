@@ -1,0 +1,52 @@
+body{
+    background-image: url(bookstore.jpg);
+    background-size:cover;
+    color:black;
+    background-attachment: fixed;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+}
+a{
+    text-decoration: none;
+    transition: color 0.3s;
+}
+a:hover{
+    color : #ff7043;
+}
+.col-1{
+    display:inline-block;
+    width:100px;
+}
+.col-2{
+    display:inline-block;
+    width:100px;
+}
+img {
+    max-width: 150px;
+    max-height: 150px;
+    overflow: visible;
+}
+
+.show {
+    display: block;
+    transition-duration: 0.5s;
+}
+.show:hover {
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+}
+
+#column ul {
+    width: calc(100 + 20px);
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#column li {
+    padding: 0 10px 20px;
+}
+.column04 li {
+    width: calc(25% - 20px);
+    list-style: none;
+}
