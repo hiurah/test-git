@@ -1,7 +1,7 @@
 <?php
     function getDB(){
-        $pdo=new PDO('mysql:host=mysql301.phy.lolipop.lan;dbname=LAA1419694-ans9621;charset=utf8',
-            'LAA1419694','Pass1105');
+        $pdo=new PDO('mysql:host="ホスト名";dbname="ドメイン名";charset=utf8',
+            'アカウント名','パスワード');
         return $pdo;
     }
 ?>
