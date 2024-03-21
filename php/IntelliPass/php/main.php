@@ -1,3 +1,4 @@
+// 改良中
 <?php
 session_start();
 ?>
