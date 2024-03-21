@@ -1,4 +1,7 @@
-// 改良中
+<!--
+改良中
+http://aso2101100.girly.jp/IntelliPass/php/first.php
+-->
 <?php
 session_start();
 ?>
@@ -109,9 +112,3 @@ session_start();
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
-<!-- http://aso2101100.girly.jp/IntelliPass/php/first.php
-インテリパス (IntelliPass)
-https://qiita.com/mikakane/items/2afb375023bd89e89685
-https://office54.net/iot/bootstrap5/template-sidemenu-create 
-post_tableの1のところにチュートリアルと注意喚起の画像を出す　それを最初に出すようにする
--->
